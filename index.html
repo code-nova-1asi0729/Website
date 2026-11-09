@@ -7,6 +7,10 @@
 <meta name="description" data-i18n-attr="content:meta.description" content="Vigilia: an IoT preventive maintenance platform for buildings and condominiums. Catch failures in pumps, panels and elevators before they become emergencies.">
 <meta name="keywords" content="preventive maintenance, building maintenance, condominium, IoT sensors, water pump, elevator, electrical panel, Lima, Vigilia">
 <meta name="author" content="CodeNova">
+<meta property="og:title" content="Vigilia — Smart Preventive Maintenance">
+<meta property="og:description" content="An IoT preventive maintenance platform for buildings and condominiums. Catch failures in pumps, panels and elevators before they become emergencies.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://code-nova-1asi0729.github.io/landing-page/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect x='6' y='6' width='28' height='28' rx='6' fill='none' stroke='%230F5C78' stroke-width='3'/%3E%3Cpolyline points='10,24 15,24 18,15 22,29 26,11 30,24 34,24' fill='none' stroke='%232E9E6D' stroke-width='2.5'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -202,6 +206,38 @@
     </div>
   </section>
 
+  <!-- SEGMENTS -->
+  <section class="section section-segments" id="segments">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="segments.eyebrow">— FOR YOU</p>
+        <h2 data-i18n="segments.title">Built for everyone in your building</h2>
+        <p class="section-sub" data-i18n="segments.sub">Choose your role and go straight to what you need in the app.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card segment-card">
+          <div class="icon-badge icon-blue"></div>
+          <h3 data-i18n="segments.admin">Building administrators</h3>
+          <p data-i18n="segments.admin-text">Register your buildings and critical equipment and see how each one is doing.</p>
+          <a href="https://vigilia-frontend.vercel.app/asset-monitoring/buildings" class="btn btn-primary" aria-label="Manage my building in the Vigilia app" data-i18n="segments.admin-cta" data-i18n-attr="aria-label:segments.admin-label">Manage my building</a>
+        </div>
+        <div class="card segment-card">
+          <div class="icon-badge icon-green"></div>
+          <h3 data-i18n="segments.resident">Residents</h3>
+          <p data-i18n="segments.resident-text">Report a problem in your building and follow it until it is fixed.</p>
+          <a href="https://vigilia-frontend.vercel.app/incidents/new" class="btn btn-primary" aria-label="Report an incident in the Vigilia app" data-i18n="segments.resident-cta" data-i18n-attr="aria-label:segments.resident-label">Report an incident</a>
+        </div>
+        <div class="card segment-card">
+          <div class="icon-badge icon-orange"></div>
+          <h3 data-i18n="segments.maintenance">Maintenance companies</h3>
+          <p data-i18n="segments.maintenance-text">See the alerts of the buildings you serve, the most urgent first.</p>
+          <a href="https://vigilia-frontend.vercel.app/asset-monitoring/alerts" class="btn btn-primary" aria-label="See active alerts in the Vigilia app" data-i18n="segments.maintenance-cta" data-i18n-attr="aria-label:segments.maintenance-label">See active alerts</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- PRICING -->
   <section class="section section-alt" id="pricing">
     <div class="container">
@@ -290,19 +326,16 @@
           <li data-i18n="product.point-alerts">Alerts sorted by severity, the most urgent first</li>
           <li data-i18n="product.point-incidents">Incident follow-up, from the report to the resident's rating</li>
         </ul>
-        <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u202411843_upc_edu_pe/Documents/Entrevistas%20-%20Code%20Nova/4.5%20Web%20Applications%20Prototyping..mkv?d=w827942a5d9844c509d0df218e7f0c993&amp;csf=1&amp;web=1&amp;e=26YvhK&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" class="btn btn-primary" data-product-video target="_blank" rel="noopener" data-i18n="product.watch">Watch the video</a>
+        <a href="#" class="btn btn-primary" data-youtube-link="product-video" target="_blank" rel="noopener" data-i18n="product.watch" hidden>Watch the video</a>
       </div>
 
       <div class="product-video">
-        <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u202411843_upc_edu_pe/Documents/Entrevistas%20-%20Code%20Nova/4.5%20Web%20Applications%20Prototyping..mkv?d=w827942a5d9844c509d0df218e7f0c993&amp;csf=1&amp;web=1&amp;e=26YvhK&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" class="video-card" data-product-video target="_blank" rel="noopener" aria-label="Watch the video" data-i18n-attr="aria-label:product.watch">
+        <div class="video-embed" id="product-video" data-youtube-id="" data-video-title="Vigilia · About the Product">
           <svg class="video-wave" viewBox="0 0 200 100" preserveAspectRatio="none" aria-hidden="true">
             <polyline points="0,70 30,70 40,30 55,90 70,15 90,70 200,70" fill="none" stroke="#ffffff" stroke-width="2"></polyline>
           </svg>
-          <span class="play-button" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="30" height="30"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg>
-          </span>
-          <span class="video-caption" data-i18n="product.caption">Vigilia product video</span>
-        </a>
+          <p class="video-placeholder" data-i18n="video.coming-soon">Video coming soon</p>
+        </div>
       </div>
     </div>
   </section>
@@ -329,7 +362,7 @@
               <p data-i18n="about.founded">Founded</p>
             </div>
             <div class="stat-card">
-              <h3>4</h3>
+              <h3>3</h3>
               <p data-i18n="about.members">Team members</p>
             </div>
             <div class="stat-card">
@@ -379,11 +412,10 @@
           <h3>Matthias Romero</h3>
           <p data-i18n="team.member">Member</p>
         </div>
-        <div class="team-card">
-          <img class="avatar avatar-photo" src="img/team/mateo-salazar.jpg" alt="Mateo Salazar Miranda" width="96" height="96" loading="lazy">
-          <h3>Mateo Salazar Miranda</h3>
-          <p data-i18n="team.member">Member</p>
-        </div>
+      </div>
+
+      <div class="video-embed team-video" id="team-video" data-youtube-id="" data-video-title="Vigilia · About the Team">
+        <p class="video-placeholder" data-i18n="video.coming-soon">Video coming soon</p>
       </div>
     </div>
   </section>
@@ -656,5 +688,6 @@
 <script src="js/i18n.js"></script>
 <script src="js/script.js"></script>
 <script src="js/landing-extras.js"></script>
+<script src="js/videos.js"></script>
 </body>
 </html>
