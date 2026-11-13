@@ -5,6 +5,20 @@ All notable changes to the Vigilia landing page are listed in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-11-13
+
+### Added
+
+- Privacy policy, opened from the footer.
+- Complaints book with a form, opened from the footer.
+- A "For you" link in the menu to the section per segment.
+
+### Changed
+
+- The section per segment is right below the hero, and says that each button opens the web app.
+- Product texts use "devices" instead of "equipment".
+- The site URL is now https://code-nova-1asi0729.github.io/Website/.
+
 ## [0.2.0] - 2026-11-09
 
 ### Added
