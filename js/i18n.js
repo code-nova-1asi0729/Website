@@ -11,6 +11,7 @@
     en: {
       "meta.title": "Vigilia — Smart Preventive Maintenance",
       "nav.product": "Product",
+      "nav.for-you": "For you",
       "nav.how-it-works": "How it works",
       "nav.pricing": "Pricing",
       "nav.about": "About",
@@ -210,6 +211,7 @@
     es: {
       "meta.title": "Vigilia — Mantenimiento preventivo inteligente",
       "nav.product": "Producto",
+      "nav.for-you": "Para ti",
       "nav.how-it-works": "Cómo funciona",
       "nav.pricing": "Precios",
       "nav.about": "Nosotros",
