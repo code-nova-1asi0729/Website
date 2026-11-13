@@ -5,6 +5,16 @@ All notable changes to the Vigilia landing page are listed in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.1] - 2026-11-13
+
+### Added
+
+- Privacy policy, opened from the footer, in English and Spanish.
+
+### Changed
+
+- Product texts use "devices" instead of "equipment".
+
 ## [0.3.0] - 2026-11-13
 
 ### Added
