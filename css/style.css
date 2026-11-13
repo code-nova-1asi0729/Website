@@ -315,7 +315,6 @@ h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; }
 
 /* Segments */
 .section-segments { border-top: 1px solid var(--color-border); }
-.segments-note { text-align: center; margin-top: 28px; }
 .segment-card .btn { margin-top: auto; align-self: flex-start; }
 
 .how-visual { flex: 1; display: flex; align-items: center; justify-content: center; }
@@ -520,7 +519,7 @@ h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; }
   color: var(--color-text-muted);
   font-weight: 600;
 }
-.form-field input, .form-field textarea, .form-field select {
+.form-field input, .form-field textarea {
   font-family: var(--font-main);
   font-size: 16px;
   padding: 12px 14px;
@@ -530,7 +529,7 @@ h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; }
   color: var(--color-dark);
   resize: vertical;
 }
-.form-field input:focus, .form-field textarea:focus, .form-field select:focus {
+.form-field input:focus, .form-field textarea:focus {
   outline: none;
   border-color: var(--color-primary);
   background: #fff;
