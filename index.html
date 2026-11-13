@@ -31,7 +31,6 @@
 
     <nav class="main-nav" id="main-nav">
       <a href="#features" data-i18n="nav.product">Product</a>
-      <a href="#segments" data-i18n="nav.for-you">For you</a>
       <a href="#how-it-works" data-i18n="nav.how-it-works">How it works</a>
       <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
       <a href="#about" data-i18n="nav.about">About</a>
@@ -91,7 +90,7 @@
           </svg>
         </div>
         <div class="status-card">
-          <p class="status-title" data-i18n="hero.equipment-status">Device status</p>
+          <p class="status-title" data-i18n="hero.equipment-status">Equipment status</p>
           <div class="status-legend">
             <span class="dot" style="background:#2E9E6D"></span><span data-i18n="severity.normal">Normal</span>
             <span class="dot" style="background:#1F4E9C"></span><span data-i18n="severity.low">Low</span>
@@ -101,40 +100,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- SEGMENTS -->
-  <section class="section section-segments" id="segments">
-    <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="segments.eyebrow">— FOR YOU</p>
-        <h2 data-i18n="segments.title">Built for everyone in your building</h2>
-        <p class="section-sub" data-i18n="segments.sub">Choose your role and go straight to what you need in the app.</p>
-      </div>
-
-      <div class="grid grid-3">
-        <div class="card segment-card">
-          <div class="icon-badge icon-blue"></div>
-          <h3 data-i18n="segments.admin">Building administrators</h3>
-          <p data-i18n="segments.admin-text">Register your buildings and critical devices and see how each one is doing.</p>
-          <a href="https://vigilia-frontend.vercel.app/asset-monitoring/buildings" class="btn btn-primary" aria-label="Manage my building in the Vigilia app" data-i18n="segments.admin-cta" data-i18n-attr="aria-label:segments.admin-label">Manage my building</a>
-        </div>
-        <div class="card segment-card">
-          <div class="icon-badge icon-green"></div>
-          <h3 data-i18n="segments.resident">Residents</h3>
-          <p data-i18n="segments.resident-text">Report a problem in your building and follow it until it is fixed.</p>
-          <a href="https://vigilia-frontend.vercel.app/incidents/new" class="btn btn-primary" aria-label="Report an incident in the Vigilia app" data-i18n="segments.resident-cta" data-i18n-attr="aria-label:segments.resident-label">Report an incident</a>
-        </div>
-        <div class="card segment-card">
-          <div class="icon-badge icon-orange"></div>
-          <h3 data-i18n="segments.maintenance">Maintenance companies</h3>
-          <p data-i18n="segments.maintenance-text">See the alerts of the buildings you serve, the most urgent first.</p>
-          <a href="https://vigilia-frontend.vercel.app/asset-monitoring/alerts" class="btn btn-primary" aria-label="See active alerts in the Vigilia app" data-i18n="segments.maintenance-cta" data-i18n-attr="aria-label:segments.maintenance-label">See active alerts</a>
-        </div>
-      </div>
-
-      <p class="section-sub segments-note" data-i18n="segments.opens-app">Each button opens the Vigilia web app.</p>
     </div>
   </section>
 
@@ -207,7 +172,7 @@
             <span class="step-number">2</span>
             <div>
               <h3 data-i18n="how.step2">Set up your building</h3>
-              <p data-i18n="how.step2-text">Register devices by type: pumps, panels, elevators.</p>
+              <p data-i18n="how.step2-text">Register equipment by type: pumps, panels, elevators.</p>
             </div>
           </li>
           <li>
@@ -236,6 +201,38 @@
             <h3>98%</h3>
             <p data-i18n="how.on-time">Alerts handled on time</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEGMENTS -->
+  <section class="section section-segments" id="segments">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="segments.eyebrow">— FOR YOU</p>
+        <h2 data-i18n="segments.title">Built for everyone in your building</h2>
+        <p class="section-sub" data-i18n="segments.sub">Choose your role and go straight to what you need in the app.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card segment-card">
+          <div class="icon-badge icon-blue"></div>
+          <h3 data-i18n="segments.admin">Building administrators</h3>
+          <p data-i18n="segments.admin-text">Register your buildings and critical equipment and see how each one is doing.</p>
+          <a href="https://vigilia-frontend.vercel.app/asset-monitoring/buildings" class="btn btn-primary" aria-label="Manage my building in the Vigilia app" data-i18n="segments.admin-cta" data-i18n-attr="aria-label:segments.admin-label">Manage my building</a>
+        </div>
+        <div class="card segment-card">
+          <div class="icon-badge icon-green"></div>
+          <h3 data-i18n="segments.resident">Residents</h3>
+          <p data-i18n="segments.resident-text">Report a problem in your building and follow it until it is fixed.</p>
+          <a href="https://vigilia-frontend.vercel.app/incidents/new" class="btn btn-primary" aria-label="Report an incident in the Vigilia app" data-i18n="segments.resident-cta" data-i18n-attr="aria-label:segments.resident-label">Report an incident</a>
+        </div>
+        <div class="card segment-card">
+          <div class="icon-badge icon-orange"></div>
+          <h3 data-i18n="segments.maintenance">Maintenance companies</h3>
+          <p data-i18n="segments.maintenance-text">See the alerts of the buildings you serve, the most urgent first.</p>
+          <a href="https://vigilia-frontend.vercel.app/asset-monitoring/alerts" class="btn btn-primary" aria-label="See active alerts in the Vigilia app" data-i18n="segments.maintenance-cta" data-i18n-attr="aria-label:segments.maintenance-label">See active alerts</a>
         </div>
       </div>
     </div>
@@ -323,7 +320,7 @@
       <div class="product-copy">
         <p class="eyebrow" data-i18n="product.eyebrow">— ABOUT THE PRODUCT</p>
         <h2 data-i18n="product.title">See Vigilia in action</h2>
-        <p data-i18n="product.text">Watch how Vigilia connects IoT sensors, prioritized alerts and incident follow-up so the critical devices of your building keeps working.</p>
+        <p data-i18n="product.text">Watch how Vigilia connects IoT sensors, prioritized alerts and incident follow-up so the critical equipment of your building keeps working.</p>
         <ul class="product-points">
           <li data-i18n="product.point-monitoring">Real-time monitoring of pumps, electrical panels, elevators and HVAC</li>
           <li data-i18n="product.point-alerts">Alerts sorted by severity, the most urgent first</li>
@@ -523,7 +520,7 @@
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              <p data-i18n="faq.a-security">Yes, your device and building information is stored encrypted and is only accessible to authorized users on your account.</p>
+              <p data-i18n="faq.a-security">Yes, your equipment and building information is stored encrypted and is only accessible to authorized users on your account.</p>
             </div>
           </div>
         </div>
@@ -665,8 +662,8 @@
       <div class="footer-col">
         <h3 data-i18n="footer.legal">Legal</h3>
         <a href="#terms" data-open-terms data-i18n="footer.terms">Terms and conditions</a>
-        <a href="#privacy" data-open-privacy data-i18n="footer.privacy">Privacy</a>
-        <a href="#complaints" data-open-complaints data-i18n="footer.complaints">Complaints</a>
+        <a href="#" data-i18n="footer.privacy">Privacy</a>
+        <a href="#" data-i18n="footer.complaints">Complaints</a>
       </div>
     </div>
 
@@ -682,61 +679,9 @@
     <h2 id="terms-title" data-i18n="terms.title">Terms and conditions</h2>
     <button type="button" class="terms-close" data-close-terms aria-label="Close" data-i18n-attr="aria-label:terms.close">&times;</button>
   </div>
-  <div class="terms-body" data-i18n-html="terms.body"><p class="terms-updated">Last updated: October 2026</p><h3>1. Acceptance</h3><p>By using the Vigilia website or web application you accept these terms. If you do not agree with them, please do not use the service.</p><h3>2. The service</h3><p>Vigilia is a preventive maintenance platform by CodeNova that monitors the critical device of buildings (water pumps, electrical panels, elevators and HVAC) through IoT sensors, prioritized alerts and incident management.</p><h3>3. Accounts and use</h3><p>Administrators are responsible for the accuracy of the building and device data they register and for the users they give access to. The service must not be used for unlawful purposes.</p><h3>4. Alerts and responsibility</h3><p>Alerts support decision-making but do not replace the inspections and maintenance required by law or by the device manufacturer. CodeNova is not liable for damage caused by device failures.</p><h3>5. Data and privacy</h3><p>Sensor readings and building information are used only to provide the service, are stored encrypted and are not sold to third parties. Personal data is handled in accordance with Peruvian Law No. 29733 on Personal Data Protection.</p><h3>6. Plans and payments</h3><p>Prices are in Peruvian soles (PEN) and include taxes. Plans can be changed or cancelled at any time; the change applies from the next billing period.</p><h3>7. Changes to these terms</h3><p>We may update these terms. Significant changes will be announced on this website.</p><h3>8. Contact</h3><p>For questions about these terms, write to support@codenova.pe.</p></div>
+  <div class="terms-body" data-i18n-html="terms.body"><p class="terms-updated">Last updated: October 2026</p><h3>1. Acceptance</h3><p>By using the Vigilia website or web application you accept these terms. If you do not agree with them, please do not use the service.</p><h3>2. The service</h3><p>Vigilia is a preventive maintenance platform by CodeNova that monitors the critical equipment of buildings (water pumps, electrical panels, elevators and HVAC) through IoT sensors, prioritized alerts and incident management.</p><h3>3. Accounts and use</h3><p>Administrators are responsible for the accuracy of the building and equipment data they register and for the users they give access to. The service must not be used for unlawful purposes.</p><h3>4. Alerts and responsibility</h3><p>Alerts support decision-making but do not replace the inspections and maintenance required by law or by the equipment manufacturer. CodeNova is not liable for damage caused by equipment failures.</p><h3>5. Data and privacy</h3><p>Sensor readings and building information are used only to provide the service, are stored encrypted and are not sold to third parties. Personal data is handled in accordance with Peruvian Law No. 29733 on Personal Data Protection.</p><h3>6. Plans and payments</h3><p>Prices are in Peruvian soles (PEN) and include taxes. Plans can be changed or cancelled at any time; the change applies from the next billing period.</p><h3>7. Changes to these terms</h3><p>We may update these terms. Significant changes will be announced on this website.</p><h3>8. Contact</h3><p>For questions about these terms, write to support@codenova.pe.</p></div>
   <div class="terms-footer">
     <button type="button" class="btn btn-primary" data-close-terms data-i18n="terms.understood">Got it</button>
-  </div>
-</dialog>
-
-<dialog class="terms-dialog" id="privacy-dialog" aria-labelledby="privacy-title">
-  <div class="terms-header">
-    <h2 id="privacy-title" data-i18n="privacy.title">Privacy policy</h2>
-    <button type="button" class="terms-close" data-close-privacy aria-label="Close" data-i18n-attr="aria-label:privacy.close">&times;</button>
-  </div>
-  <div class="terms-body" data-i18n-html="privacy.body"><p class="terms-updated">Last updated: November 2026</p><h3>1. What data we collect</h3><p>The data you send in the contact form, and the data of buildings, devices, sensors and readings registered in the Vigilia app.</p><h3>2. What we use it for</h3><p>Only to provide the service and to answer your messages.</p><h3>3. Who we share it with</h3><p>With nobody. We do not sell your data.</p><h3>4. How long we keep it</h3><p>While the service is active.</p><h3>5. Your rights</h3><p>You can ask for access, rectification, cancellation or opposition (ARCO rights), according to Peruvian Law No. 29733 on Personal Data Protection.</p><h3>6. Contact</h3><p>privacy@codenova.pe</p></div>
-  <div class="terms-footer">
-    <button type="button" class="btn btn-primary" data-close-privacy data-i18n="privacy.understood">Got it</button>
-  </div>
-</dialog>
-
-<dialog class="terms-dialog" id="complaints-dialog" aria-labelledby="complaints-title">
-  <div class="terms-header">
-    <h2 id="complaints-title" data-i18n="complaints.title">Complaints book</h2>
-    <button type="button" class="terms-close" data-close-complaints aria-label="Close" data-i18n-attr="aria-label:complaints.close">&times;</button>
-  </div>
-  <div class="terms-body">
-    <form id="complaints-form" novalidate>
-      <div class="form-field">
-        <label for="complaint-fullname" data-i18n="complaints.fullname">Full name</label>
-        <input type="text" id="complaint-fullname" name="fullname" required>
-        <span class="field-error"></span>
-      </div>
-
-      <div class="form-field">
-        <label for="complaint-email" data-i18n="complaints.email">Email</label>
-        <input type="email" id="complaint-email" name="email" required>
-        <span class="field-error"></span>
-      </div>
-
-      <div class="form-field">
-        <label for="complaint-kind" data-i18n="complaints.kind">Type</label>
-        <select id="complaint-kind" name="kind">
-          <option value="claim" data-i18n="complaints.claim">Claim (you are not satisfied with the service)</option>
-          <option value="complaint" data-i18n="complaints.complaint">Complaint (you are not satisfied with the attention)</option>
-        </select>
-      </div>
-
-      <div class="form-field">
-        <label for="complaint-detail" data-i18n="complaints.detail">Detail</label>
-        <textarea id="complaint-detail" name="detail" rows="4" required></textarea>
-        <span class="field-error"></span>
-      </div>
-
-      <p class="form-feedback" id="complaints-feedback" role="status" aria-live="polite"></p>
-    </form>
-  </div>
-  <div class="terms-footer">
-    <button type="submit" form="complaints-form" class="btn btn-primary" data-i18n="complaints.send">Send</button>
   </div>
 </dialog>
 
