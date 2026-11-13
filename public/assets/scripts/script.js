@@ -1,22 +1,3 @@
-// Mobile menu toggle
-const header = document.getElementById('header');
-const menuToggle = document.getElementById('menu-toggle');
-const mainNav = document.getElementById('main-nav');
-
-menuToggle.addEventListener('click', () => {
-  const isOpen = header.classList.toggle('nav-open');
-  menuToggle.classList.toggle('open', isOpen);
-  menuToggle.setAttribute('aria-expanded', String(isOpen));
-});
-
-mainNav.querySelectorAll('a').forEach((link) => {
-  link.addEventListener('click', () => {
-    header.classList.remove('nav-open');
-    menuToggle.classList.remove('open');
-    menuToggle.setAttribute('aria-expanded', 'false');
-  });
-});
-
 // FAQ accordion
 document.querySelectorAll('.faq-item').forEach((item) => {
   const question = item.querySelector('.faq-question');
@@ -116,18 +97,6 @@ document.addEventListener('i18n:change', () => {
   feedback.className = 'form-feedback';
 });
 
-// Terms and conditions dialog: opened from the footer and from the contact form
-const termsDialog = document.getElementById('terms-dialog');
-document.addEventListener('click', (event) => {
-  if (event.target.closest('[data-open-terms]')) {
-    event.preventDefault();
-    header.classList.remove('nav-open');
-    termsDialog.showModal();
-  } else if (event.target.closest('[data-close-terms]') || event.target === termsDialog) {
-    termsDialog.close();
-  }
-});
-
 // Complaints book: opened from the footer. It is validated here and not sent to a server.
 const complaintsDialog = document.getElementById('complaints-dialog');
 const complaintsForm = document.getElementById('complaints-form');
@@ -168,3 +137,9 @@ complaintsForm.addEventListener('submit', (event) => {
   complaintsFeedback.className = 'form-feedback success';
   complaintsForm.reset();
 });
+
+// The complaints book can also be opened from the other pages through index.html#complaints
+if (location.hash === '#complaints') {
+  clearComplaintsForm();
+  complaintsDialog.showModal();
+}

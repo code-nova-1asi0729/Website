@@ -878,3 +878,13 @@ body:has(.terms-dialog[open]) { overflow: hidden; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+
+/* ---------- Legal pages (terms.html) ---------- */
+.legal-page .container { max-width: 800px; }
+.legal-page h1 { font-size: 36px; margin: 12px 0 8px; }
+.legal-back { color: var(--color-primary); font-weight: 600; text-decoration: none; }
+.legal-back::before { content: "← "; }
+.legal-back:hover { text-decoration: underline; }
+.legal-page .terms-body { padding: 0; overflow: visible; }
+.legal-page .terms-body h3 { font-size: 20px; margin: 28px 0 8px; }
+.legal-page .terms-body p { font-size: 16px; }
