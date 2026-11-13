@@ -2,7 +2,7 @@
 
 Static marketing site for **Vigilia**, a building-safety monitoring platform.
 
-**Live site:** https://code-nova-1asi0729.github.io/landing-page/
+**Live site:** https://code-nova-1asi0729.github.io/Website/
 **Web app:** https://vigilia-frontend.vercel.app
 
 ## Tech stack
@@ -13,17 +13,15 @@ Static marketing site for **Vigilia**, a building-safety monitoring platform.
 ## Project structure
 
 ```
-landing-page/
-├── index.html
-├── css/
-│   ├── style.css
-│   └── wireframe.css
-├── img/
-│   └── team/              # team member photos
-├── js/
-│   ├── i18n.js            # language switcher (English / Spanish)
-│   ├── script.js          # menu, FAQ, contact form
-│   └── landing-extras.js  # pricing toggle, carousel
+Website/
+├── index.html             # redirects to public/ (GitHub Pages serves the repository root)
+├── public/
+│   ├── index.html
+│   └── assets/
+│       ├── style/         # style.css, wireframe.css
+│       ├── scripts/       # i18n.js, script.js, landing-extras.js, videos.js
+│       └── images/
+│           └── team/      # team member photos
 └── README.md
 ```
 
