@@ -126,6 +126,17 @@ document.addEventListener('click', (event) => {
   } else if (event.target.closest('[data-close-terms]') || event.target === termsDialog) {
     termsDialog.close();
   }
+
+  // Privacy policy dialog: opened from the footer
+  const privacyDialog = document.getElementById('privacy-dialog');
+  document.addEventListener('click', (event) => {
+    if (event.target.closest('[data-open-privacy]')) {
+      event.preventDefault();
+      privacyDialog.showModal();
+    } else if (event.target.closest('[data-close-privacy]') || event.target === privacyDialog) {
+      privacyDialog.close();
+    }
+  });
 });
 
 // Complaints book: opened from the footer. It is validated here and not sent to a server.
