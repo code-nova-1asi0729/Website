@@ -113,7 +113,7 @@
       "pricing.talk-to-sales": "Talk to sales",
       "product.eyebrow": "— ABOUT THE PRODUCT",
       "product.title": "See Vigilia in action",
-      "product.text": "Watch how Vigilia connects IoT sensors, prioritized alerts and incident follow-up so the critical equipment of your building keeps working.",
+      "product.text": "Watch how Vigilia connects IoT sensors, prioritized alerts and incident follow-up so the critical devices of your building keep working.",
       "product.point-monitoring": "Real-time monitoring of pumps, electrical panels, elevators and HVAC",
       "product.point-alerts": "Alerts sorted by severity, the most urgent first",
       "product.point-incidents": "Incident follow-up, from the report to the resident's rating",
