@@ -7,6 +7,16 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 
 
+## [0.4.0] - 2026-11-25
+
+### Added
+
+- About the Product and About the Team videos, embedded from YouTube.
+
+### Fixed
+
+- Grammar of the product description.
+
 ## [0.3.2] - 2026-11-13
 
 ### Added
